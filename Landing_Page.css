@@ -34,6 +34,11 @@ body{
     height: 500px;
     margin-top: -70px;
 } 
+.logo2{
+    margin-left:645px;
+    height: 400px;
+    margin-top: -70px;
+}
 .row3{
     width:1920px;
     height: 160px;
@@ -109,7 +114,7 @@ body{
     cursor: pointer;
 }
 .picbox4 h3{
-    margin-left:375px;
+    margin-left:400px;
 }
 .loyalty{
     height:250px;
@@ -154,10 +159,21 @@ body{
     height: 250px;
     text-align: center;
 }
+.instagram{
+    border: 2px solid black;
+    cursor:pointer;
+    width: 115px;
+    height:60px;
+    border-radius: 30%;
+    box-shadow: 3px 2px 2px 2px  black;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: -10px;
+}
 .email{
     margin-top:50px;
     margin-bottom:15px;
-    margin-left: 700px;
+    margin-left: 550px;
     display:flex;
 }
 .email input{
@@ -171,8 +187,10 @@ body{
     width: 150px;
     height:50px;
     box-shadow: 3px 2px 2px 2px  black;
-    border: 1px solid black
+    border: 1px solid black;
+    margin-left: 15px;
 }
-.email button:active{
+.email button:active,
+.instagram:active{
     box-shadow: inset black 4px 4px 2px;
 }
